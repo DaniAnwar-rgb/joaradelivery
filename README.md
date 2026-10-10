@@ -1,12 +1,12 @@
-# 🍜 Mie Pedas App - Flutter Multi-Platform
+#  Mie Pedas App - Flutter Multi-Platform
 
 Aplikasi pemesanan Mie Pedas yang mendukung **Android, iOS, Windows, dan macOS**.
 
 ---
 
-## ✅ Fitur Lengkap
+##  Fitur Lengkap
 
-### 👤 Member
+###  Member
 - Login & Register akun baru
 - Halaman Home dengan banner promo & menu best seller
 - Daftar menu lengkap dengan filter kategori & pencarian
@@ -15,18 +15,18 @@ Aplikasi pemesanan Mie Pedas yang mendukung **Android, iOS, Windows, dan macOS**
 - Checkout dengan pilihan metode pembayaran (Tunai / Transfer / E-Wallet)
 - Riwayat pesanan
 
-### ⚙️ Admin
+###  Admin
 - Dashboard statistik (total pesanan, pendapatan, dll)
 - Kelola pesanan (ubah status)
 - Kelola menu (tambah, edit, hapus)
 - Daftar pengguna (Member, Kurir, Admin)
 
-### 🛵 Kurir
+###  Kurir
 - Lihat pesanan siap diambil
 - Ambil pesanan & tandai terkirim
 - Panel pengantaran aktif
 
-### 🔐 Demo Login (Tanpa Daftar)
+###  Demo Login (Tanpa Daftar)
 | Role | Email | Password |
 |------|-------|----------|
 | Member | member@demo.com | demo123 |
@@ -35,7 +35,7 @@ Aplikasi pemesanan Mie Pedas yang mendukung **Android, iOS, Windows, dan macOS**
 
 ---
 
-## 🚀 Cara Setup & Menjalankan
+##  Cara Setup & Menjalankan
 
 ### Prasyarat
 - **Flutter SDK** versi 3.10.0 ke atas → https://docs.flutter.dev/get-started/install
@@ -63,23 +63,23 @@ flutter pub get
 
 ### 4. Jalankan Sesuai Platform
 
-#### 📱 Android
+####  Android
 ```bash
 # Pastikan emulator berjalan atau HP terhubung
 flutter run -d android
 ```
 
-#### 🍎 iOS (hanya di Mac)
+####  iOS (hanya di Mac)
 ```bash
 flutter run -d ios
 ```
 
-#### 🪟 Windows
+####  Windows
 ```bash
 flutter run -d windows
 ```
 
-#### 💻 macOS (hanya di Mac)
+####  macOS (hanya di Mac)
 ```bash
 flutter run -d macos
 ```
@@ -112,7 +112,7 @@ flutter build macos --release
 
 ---
 
-## 📁 Struktur Project
+##  Struktur Project
 
 ```
 lib/
@@ -152,7 +152,7 @@ lib/
 
 ---
 
-## 🛠️ Teknologi
+##  Teknologi
 
 | Teknologi | Kegunaan |
 |-----------|----------|
@@ -164,7 +164,7 @@ lib/
 
 ---
 
-## ⚠️ Catatan Penting
+##  Catatan Penting
 
 - App ini menggunakan **local storage (SQLite)** — tidak butuh backend/internet
 - Data tersimpan di perangkat masing-masing
@@ -172,5 +172,5 @@ lib/
 
 ---
 
-## 📞 Kontak & Dukungan
-Dibuat dengan ❤️ menggunakan Flutter untuk usaha Mie Pedas.
+##  Kontak & Dukungan
+Dibuat dengan menggunakan Flutter untuk usaha Mie Pedas.
